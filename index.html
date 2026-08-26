@@ -1,0 +1,986 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EnergaCar | Wynajem i dzierżawa pojazdów</title>
+
+    <meta
+      name="description"
+      content="Nowoczesny wynajem, dzierżawa oraz kompleksowe zarządzanie flotą pojazdów dla biznesu."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+<header class="header">
+  <div class="container header__container">
+
+    <a href="#" class="logo">
+      <img src="assets/images/logo.svg" alt="EnergaCar" />
+    </a>
+
+    <!-- DESKTOP NAV -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="#oferta">Oferta</a></li>
+        <li><a href="#onas">O nas</a></li>
+        <li><a href="#proces">Jak działamy</a></li>
+        <li><a href="#korzysci">Korzyści</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP CTA -->
+    <a class="header__cta" href="#kontakt">
+      Zapytaj o ofertę
+      <span class="header__cta-arrow" aria-hidden="true"></span>
+    </a>
+
+    <!-- MOBILE HAMBURGER -->
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Otwórz menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <nav class="mobile-menu__nav">
+        <ul>
+          <li><a href="#oferta">Oferta</a></li>
+          <li><a href="#onas">O nas</a></li>
+          <li><a href="#proces">Jak działamy</a></li>
+          <li><a href="#korzysci">Korzyści</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <a class="mobile-menu__cta" href="#kontakt">
+        Zapytaj o ofertę
+        <span>→</span>
+      </a>
+    </div>
+
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+        <img
+          src="assets/images/hero.webp"
+          alt="Nowoczesny samochód SUV na tle biznesowej dzielnicy miasta."
+          class="hero__image"
+        />
+
+        <div class="hero__overlay"></div>
+
+        <div class="container">
+          <div class="hero__content">
+            <span class="hero__eyebrow"> Wynajem i dzierżawa pojazdów </span>
+
+            <h1 class="hero__title">Mobilność dopasowana do Twoich potrzeb</h1>
+
+            <p class="hero__text">
+              Wynajem i dzierżawa samochodów osobowych, lekkich pojazdów
+              użytkowych oraz motocykli w elastycznych modelach współpracy.
+            </p>
+
+            <div class="hero__buttons">
+              <a href="#kontakt" class="btn btn--primary">
+                Wynajmij samochód
+              </a>
+
+              <a href="#kontakt" class="btn btn--outline"> Skontaktuj się </a>
+            </div>
+          </div>
+
+          <!-- HERO FEATURES -->
+
+          <div class="hero__features">
+            <!-- 1. ELASTYCZNY OKRES WYNAJMU -->
+
+            <div class="hero__feature">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="7" y="9" width="34" height="32" rx="3"></rect>
+                  <line x1="7" y1="18" x2="41" y2="18"></line>
+                  <line x1="15" y1="5" x2="15" y2="13"></line>
+                  <line x1="33" y1="5" x2="33" y2="13"></line>
+
+                  <circle cx="16" cy="25" r="1.5"></circle>
+                  <circle cx="24" cy="25" r="1.5"></circle>
+                  <circle cx="32" cy="25" r="1.5"></circle>
+
+                  <circle cx="16" cy="33" r="1.5"></circle>
+                  <circle cx="24" cy="33" r="1.5"></circle>
+                  <circle cx="32" cy="33" r="1.5"></circle>
+                </svg>
+              </div>
+
+              <div class="hero__feature-content">
+                <h3>Elastyczny okres wynajmu</h3>
+
+                <p>
+                  Krótko- i długoterminowo,<br />
+                  tak jak potrzebujesz.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2. PEŁNE UBEZPIECZENIE -->
+
+            <div class="hero__feature">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path
+                    d="M24 5 40 11v11c0 10-6.5 17-16 21-9.5-4-16-11-16-21V11l16-6Z"
+                  ></path>
+
+                  <path d="m16 24 5 5 11-11"></path>
+                </svg>
+              </div>
+
+              <div class="hero__feature-content">
+                <h3>Pełne ubezpieczenie</h3>
+
+                <p>
+                  OC, AC, NNW w cenie najmu<br />
+                  dla Twojego spokoju.
+                </p>
+              </div>
+            </div>
+
+            <!-- 3. ASSISTANCE 24/7 -->
+
+            <div class="hero__feature">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M12 25a12 12 0 0 1 24 0"></path>
+
+                  <rect x="7" y="24" width="8" height="13" rx="3"></rect>
+
+                  <rect x="33" y="24" width="8" height="13" rx="3"></rect>
+
+                  <path d="M33 37c0 4-3 6-7 6h-4"></path>
+                </svg>
+              </div>
+
+              <div class="hero__feature-content">
+                <h3>Wsparcie</h3>
+
+                <p>
+                  Szybka pomoc i kontakt<br />
+                  w trakcie współpracy.
+                </p>
+              </div>
+            </div>
+
+            <!-- 4. SERWIS W CENIE -->
+
+            <div class="hero__feature">
+              <div class="hero__feature-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <circle cx="24" cy="24" r="7"></circle>
+
+                  <path d="M24 5v6"></path>
+                  <path d="M24 37v6"></path>
+
+                  <path d="m5 24 6 0"></path>
+                  <path d="m37 24 6 0"></path>
+
+                  <path d="m10.5 10.5 4.2 4.2"></path>
+                  <path d="m33.3 33.3 4.2 4.2"></path>
+
+                  <path d="m37.5 10.5-4.2 4.2"></path>
+                  <path d="m14.7 33.3-4.2 4.2"></path>
+
+                  <circle cx="24" cy="24" r="14"></circle>
+                </svg>
+              </div>
+
+              <div class="hero__feature-content">
+                <h3>Serwis w cenie</h3>
+
+                <p>
+                  Przeglądy, wymiana opon<br />
+                  i obsługa serwisowa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- /hero__features -->
+        </div>
+        <!-- /container -->
+      </section>
+      <!-- /hero -->
+
+      <section class="services" id="oferta">
+        <div class="container">
+          <div class="services__header">
+            <span class="section__eyebrow">
+              KOMPLEKSOWE ROZWIĄZANIA DLA TWOJEJ MOBILNOŚCI
+            </span>
+
+            <h2 class="services__title">Co możemy dla Ciebie zrobić?</h2>
+          </div>
+
+          <div class="services__grid">
+            <!-- 1. WYNAJEM -->
+            <article class="service__card">
+              <div class="service__image">
+                <img
+                  src="assets/images/service-rental.webp"
+                  alt="Samochód dostępny w ramach wynajmu"
+                />
+
+                <div class="service__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path
+                      d="M8 29l3-10c.5-1.8 2-3 4-3h18c2 0 3.5 1.2 4 3l3 10"
+                    ></path>
+                    <path d="M7 29h34v7H7"></path>
+                    <circle cx="14" cy="36" r="3"></circle>
+                    <circle cx="34" cy="36" r="3"></circle>
+                    <path d="M12 23h24"></path>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="service__content">
+                <h3>Wynajem</h3>
+
+                <p>
+                  Elastyczny wynajem krótko- i długoterminowy dopasowany do
+                  Twoich potrzeb.
+                </p>
+
+                <a href="#">
+                  Dowiedz się więcej
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- 2. DZIERŻAWA -->
+            <article class="service__card">
+              <div class="service__image">
+                <img
+                  src="assets/images/service-lease.webp"
+                  alt="Przekazanie kluczy do samochodu"
+                />
+
+                <div class="service__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <circle cx="16" cy="24" r="7"></circle>
+                    <path d="M22 24h18"></path>
+                    <path d="M34 24v5"></path>
+                    <path d="M39 24v5"></path>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="service__content">
+                <h3>Dzierżawa</h3>
+
+                <p>
+                  Atrakcyjne warunki dzierżawy dla firm i przedsiębiorców.
+                  Prosto i przejrzyście.
+                </p>
+
+                <a href="#">
+                  Dowiedz się więcej
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- 3. ZARZĄDZANIE FLOTĄ -->
+            <article class="service__card">
+              <div class="service__image">
+                <img
+                  src="assets/images/service-fleet.webp"
+                  alt="Zarządzanie flotą pojazdów"
+                />
+
+                <div class="service__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M8 38V10"></path>
+                    <path d="M8 38h32"></path>
+                    <path d="m13 31 8-8 6 4 11-14"></path>
+                    <circle cx="13" cy="31" r="2"></circle>
+                    <circle cx="21" cy="23" r="2"></circle>
+                    <circle cx="27" cy="27" r="2"></circle>
+                    <circle cx="38" cy="13" r="2"></circle>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="service__content">
+                <h3>Zarządzanie flotą</h3>
+
+                <p>
+                  Nowoczesne narzędzia IT do zarządzania flotą pojazdów i
+                  kierowcami.
+                </p>
+
+                <a href="#">
+                  Dowiedz się więcej
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- 4. FINANSOWANIE I UBEZPIECZENIA -->
+            <article class="service__card">
+              <div class="service__image">
+                <img
+                  src="assets/images/service-finance.webp"
+                  alt="Dokumenty dotyczące finansowania i ubezpieczenia"
+                />
+
+                <div class="service__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M10 7h22l6 6v28H10z"></path>
+                    <path d="M32 7v7h6"></path>
+                    <path d="M16 21h16"></path>
+                    <path d="M16 27h10"></path>
+                    <path d="M27 33l3 3 6-7"></path>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="service__content">
+                <h3>Finansowanie<br />i ubezpieczenia</h3>
+
+                <p>
+                  Finansowanie ze wsparciem serwisowym i ubezpieczeniem w jednym
+                  pakiecie.
+                </p>
+
+                <a href="#">
+                  Dowiedz się więcej
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="onas">
+        <div class="container about__container">
+          <!-- ZDJĘCIE -->
+          <div class="about__image">
+            <img
+              src="assets/images/about.webp"
+              alt="Nowoczesne biuro i zespół EnergaCar"
+            />
+          </div>
+          <div class="about__content">
+            <span class="about__eyebrow">O nas</span>
+
+            <h2 class="about__title">
+              Doświadczenie, technologia, partnerstwo
+            </h2>
+
+            <div class="about__text">
+              <p>
+                Jesteśmy zespołem specjalistów z wieloletnim doświadczeniem w
+                branżach bezpośrednio powiązanych z car fleet management:
+                motoryzacją, finansach, ubezpieczeniach i nowoczesnych
+                technologiach.
+              </p>
+
+              <p>
+                Od 2015 roku tworzymy innowacyjne, personalizowane rozwiązania
+                do zarządzania flotą pojazdów. Wspieramy firmy na każdym etapie
+                współpracy – od finansowania, przez serwis i ubezpieczenie, aż
+                po pełne wsparcie technologiczne.
+              </p>
+            </div>
+
+            <!-- STATYSTYKI -->
+            <div class="about__stats">
+              <div class="about__stat">
+                <div class="about__stat-icon">
+                  <!-- kalendarz -->
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <rect x="7" y="9" width="34" height="32" rx="3"></rect>
+                    <line x1="7" y1="18" x2="41" y2="18"></line>
+                    <line x1="15" y1="5" x2="15" y2="13"></line>
+                    <line x1="33" y1="5" x2="33" y2="13"></line>
+                  </svg>
+                </div>
+
+                <strong>2015</strong>
+                <span>Rok rozpoczęcia<br />działalności</span>
+              </div>
+
+              <div class="about__stat">
+                <div class="about__stat-icon">
+                  <!-- tarcza -->
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path
+                      d="M24 5 40 11v11c0 10-6.5 17-16 21-9.5-4-16-11-16-21V11l16-6Z"
+                    ></path>
+                    <path d="m16 24 5 5 11-11"></path>
+                  </svg>
+                </div>
+
+                <strong>100%</strong>
+                <span>Transparentność<br />i uczciwe zasady</span>
+              </div>
+
+              <div class="about__stat">
+                <div class="about__stat-icon">
+                  <!-- assistance -->
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M12 25a12 12 0 0 1 24 0"></path>
+                    <rect x="7" y="24" width="8" height="13" rx="3"></rect>
+                    <rect x="33" y="24" width="8" height="13" rx="3"></rect>
+                    <path d="M33 37c0 4-3 6-7 6h-4"></path>
+                  </svg>
+                </div>
+
+                <strong>Wsparcie</strong>
+                <span>Profesjonalna pomoc<br />na każdym etapie</span>
+              </div>
+
+              <div class="about__stat">
+                <div class="about__stat-icon">
+                  <!-- partnerzy -->
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <circle cx="17" cy="17" r="6"></circle>
+                    <circle cx="31" cy="17" r="6"></circle>
+                    <path d="M7 38c0-7 4-11 10-11s10 4 10 11"></path>
+                    <path d="M21 38c0-7 4-11 10-11s10 4 10 11"></path>
+                  </svg>
+                </div>
+
+                <strong>Zaufani<br />partnerzy</strong>
+                <span>Rozwiązania potrzeby<br />biznesowej</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="proces">
+        <div class="container">
+          <div class="process__header">
+            <span class="process__eyebrow">JAK WYGLĄDA WSPÓŁPRACA?</span>
+
+            <h2 class="process__title">
+              Prosty proces od pierwszego kontaktu do realizacji
+            </h2>
+          </div>
+
+          <div class="process__steps">
+            <!-- 1 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- telefon -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path
+                    d="M14 7l6 6-4 5c2 4 5 7 9 9l5-4 6 6-3 6c-1 2-3 3-5 2-12-3-21-12-24-24-1-2 0-4 2-5l8-1Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <span class="process__number">01</span>
+
+              <h3>Kontakt</h3>
+
+              <p>
+                Skontaktuj się z nami<br />
+                i opowiedz o swoich<br />
+                potrzebach.
+              </p>
+            </article>
+
+            <!-- 2 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- lupa -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <circle cx="21" cy="21" r="12"></circle>
+                  <line x1="30" y1="30" x2="40" y2="40"></line>
+                </svg>
+              </div>
+
+              <span class="process__number">02</span>
+
+              <h3>Analiza potrzeb</h3>
+
+              <p>
+                Poznajemy Twoją firmę<br />
+                i analizujemy potrzeby<br />
+                mobilności.
+              </p>
+            </article>
+
+            <!-- 3 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- dokument -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="10" y="6" width="28" height="36" rx="3"></rect>
+                  <line x1="16" y1="16" x2="32" y2="16"></line>
+                  <line x1="16" y1="23" x2="32" y2="23"></line>
+                  <line x1="16" y1="30" x2="27" y2="30"></line>
+                </svg>
+              </div>
+
+              <span class="process__number">03</span>
+
+              <h3>Dobór rozwiązania</h3>
+
+              <p>
+                Proponujemy najlepsze<br />
+                rozwiązanie dopasowane<br />
+                do Ciebie.
+              </p>
+            </article>
+
+            <!-- 4 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- umowa / podpis -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M9 39h30"></path>
+                  <path d="M14 33 34 13l5 5-20 20-8 2 3-7Z"></path>
+                </svg>
+              </div>
+
+              <span class="process__number">04</span>
+
+              <h3>Umowa</h3>
+
+              <p>
+                Przejrzyste warunki<br />
+                współpracy i minimum<br />
+                formalności.
+              </p>
+            </article>
+
+            <!-- 5 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- kluczyki -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <circle cx="17" cy="18" r="7"></circle>
+                  <path d="M22 23 39 40"></path>
+                  <path d="m32 33 4-4"></path>
+                  <path d="m36 37 4-4"></path>
+                </svg>
+              </div>
+
+              <span class="process__number">05</span>
+
+              <h3>Odbiór pojazdu</h3>
+
+              <p>
+                Pojazd gotowy do drogi<br />
+                i pełna dokumentacja<br />
+                w Twoich rękach.
+              </p>
+            </article>
+
+            <!-- 6 -->
+            <article class="process__step">
+              <div class="process__icon">
+                <!-- wsparcie -->
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path
+                    d="M24 39c-8-5-14-10-14-19 0-5 4-9 9-9 3 0 5 2 5 4 0-2 2-4 5-4 5 0 9 4 9 9 0 9-6 14-14 19Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <span class="process__number">06</span>
+
+              <h3>Opieka i wsparcie</h3>
+
+              <p>
+                Jesteśmy z Tobą przez<br />
+                cały okres współpracy.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" id="korzysci">
+        <div class="container">
+          <div class="benefits__header">
+            <span class="benefits__eyebrow">
+              DLACZEGO WARTO Z NAMI WSPÓŁPRACOWAĆ?
+            </span>
+
+            <h2 class="benefits__title">
+              Korzyści, które realnie wspierają Twój biznes
+            </h2>
+          </div>
+
+          <div class="benefits__grid">
+            <!-- 1 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <line x1="8" y1="14" x2="40" y2="14"></line>
+                  <circle cx="19" cy="14" r="3"></circle>
+
+                  <line x1="8" y1="24" x2="40" y2="24"></line>
+                  <circle cx="30" cy="24" r="3"></circle>
+
+                  <line x1="8" y1="34" x2="40" y2="34"></line>
+                  <circle cx="16" cy="34" r="3"></circle>
+                </svg>
+              </div>
+
+              <h3>Elastyczne<br />finansowanie</h3>
+
+              <p>
+                Dopasowane modele finansowania i dzierżawy dla firm każdej
+                wielkości.
+              </p>
+            </article>
+
+            <!-- 2 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path
+                    d="M29 8a9 9 0 0 0-7 13L8 35l5 5 14-14a9 9 0 0 0 13-10l-7 7-5-5 7-7a9 9 0 0 0-6-3Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <h3>Pełna obsługa<br />serwisowa</h3>
+
+              <p>
+                Serwis, przeglądy, opony i naprawy — wszystko w jednym miejscu.
+              </p>
+            </article>
+
+            <!-- 3 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="7" y="9" width="34" height="24" rx="3"></rect>
+                  <path d="M17 40h14"></path>
+                  <path d="M24 33v7"></path>
+                  <path d="m15 26 6-6 5 4 8-9"></path>
+                </svg>
+              </div>
+
+              <h3>Nowoczesne<br />technologie</h3>
+
+              <p>
+                Zaawansowane narzędzia IT do zarządzania flotą i raportowania.
+              </p>
+            </article>
+
+            <!-- 4 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="10" y="6" width="28" height="36" rx="3"></rect>
+                  <line x1="17" y1="16" x2="31" y2="16"></line>
+                  <line x1="17" y1="23" x2="31" y2="23"></line>
+                  <line x1="17" y1="30" x2="27" y2="30"></line>
+                </svg>
+              </div>
+
+              <h3>Minimum<br />formalności</h3>
+
+              <p>Proste procedury i szybka decyzja — oszczędzamy Twój czas.</p>
+            </article>
+
+            <!-- 5 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <circle cx="24" cy="15" r="7"></circle>
+                  <path d="M11 40c0-8 5-13 13-13s13 5 13 13"></path>
+                  <path d="M8 23c2-4 5-6 9-6"></path>
+                  <path d="M40 23c-2-4-5-6-9-6"></path>
+                </svg>
+              </div>
+
+              <h3>Doradztwo<br />ekspertów</h3>
+
+              <p>Doświadczony zespół ekspertów zawsze po Twojej stronie.</p>
+            </article>
+
+            <!-- 6 -->
+            <article class="benefit">
+              <div class="benefit__icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M6 18 16 8l10 8-7 7"></path>
+                  <path d="m22 23 6 6c2 2 5 2 7 0l7-7-8-8-5 5"></path>
+                  <path d="M17 23 8 32l8 8 9-9"></path>
+                  <path d="m28 18 5-5 9 9-5 5"></path>
+                </svg>
+              </div>
+
+              <h3>Sprawdzeni<br />partnerzy</h3>
+
+              <p>Współpracujemy z najlepszymi markami na rynku.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="cta__overlay"></div>
+
+        <div class="container cta__container">
+          <span class="cta__eyebrow"> GOTOWI NA WSPÓŁPRACĘ? </span>
+
+          <h2 class="cta__title">Porozmawiajmy o Twojej mobilności</h2>
+
+          <p class="cta__text">
+            Skontaktuj się z nami i poznaj ofertę dopasowaną do potrzeb Twojej
+            firmy.
+          </p>
+
+          <a href="#" class="btn btn--primary">
+            Zapytaj o ofertę
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+<section class="contact" id="kontakt">
+
+  <div class="container">
+
+    <div class="contact__grid">
+
+      <!-- LEWA KOLUMNA -->
+      <div class="contact__info">
+
+        <img
+          src="assets/images/logo-white.svg"
+          alt="EnergaCar"
+          class="contact__logo"
+        >
+
+        <p class="contact__description">
+          Tworzymy nowoczesne rozwiązania dla firm
+          w zakresie wynajmu, dzierżawy oraz zarządzania
+          flotą pojazdów.
+        </p>
+
+        <div class="contact__details">
+
+          <a href="tel:+48600123456" class="contact__item">
+            <svg ...>
+              <!-- telefon -->
+            </svg>
+
+            <span>+48 600 123 456</span>
+          </a>
+
+          <a href="mailto:biuro@energacar.pl" class="contact__item">
+            <svg ...>
+              <!-- mail -->
+            </svg>
+
+            <span>biuro@energacar.pl</span>
+          </a>
+
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Dąbrowskiego+31,+Poznań"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact__item"
+          >
+            <svg ...>
+              <!-- lokalizacja -->
+            </svg>
+
+            <span>
+              ul. Dąbrowskiego 31<br>
+              60-123 Poznań, Polska
+            </span>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- FORMULARZ -->
+      <div class="contact__form-wrapper">
+
+        <h3>Formularz kontaktowy</h3>
+
+        <form class="contact__form">
+
+          <div class="contact__form-row">
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Imię i nazwisko"
+              required
+            >
+
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            >
+
+          </div>
+
+          <div class="contact__form-row">
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Telefon"
+            >
+
+            <input
+              type="text"
+              name="company"
+              placeholder="Firma"
+            >
+
+          </div>
+
+          <textarea
+            name="message"
+            placeholder="Wiadomość"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit" class="contact__submit">
+            Wyślij wiadomość
+            <span aria-hidden="true">→</span>
+          </button>
+
+        </form>
+
+      </div>
+
+
+      <!-- MAPA -->
+      <div class="contact__location">
+
+        <h3>Znajdź nas</h3>
+
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps?q=Dąbrowskiego+31,+Poznań&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="EnergaCar – lokalizacja w Poznaniu">
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__container">
+
+    <!-- LOGO / OPIS -->
+    <div class="footer__brand">
+
+      <a href="#" class="footer__logo">
+        EnergaCar
+      </a>
+
+      <p>
+        Nowoczesne rozwiązania dla firm
+        w zakresie mobilności i zarządzania flotą.
+      </p>
+
+    </div>
+
+
+    <!-- NA SKRÓTY -->
+    <div class="footer__nav">
+
+      <h3>Na skróty</h3>
+
+<ul>
+  <li><a href="#oferta">Oferta</a></li>
+  <li><a href="#onas">O nas</a></li>
+  <li><a href="#proces">Jak działamy</a></li>
+  <li><a href="#korzysci">Korzyści</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+</ul>
+
+    </div>
+
+
+    <!-- KONTAKT -->
+    <div class="footer__contact">
+
+      <h3>Skontaktuj się</h3>
+
+      <a href="tel:+48600123456">
+        +48 600 123 456
+      </a>
+
+      <a href="mailto:biuro@energacar.pl">
+        biuro@energacar.pl
+      </a>
+
+      <a href="#kontakt" class="footer__contact-link">
+        Zapytaj o ofertę
+        <span aria-hidden="true">→</span>
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- DOLNA BELKA -->
+  <div class="footer__bottom">
+
+    <div class="container footer__bottom-container">
+
+      <p>
+        © 2026 EnergaCar. Wszelkie prawa zastrzeżone.
+      </p>
+
+      <div class="footer__legal">
+        <a href="#">Polityka prywatności</a>
+        <a href="#">Regulamin</a>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
