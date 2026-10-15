@@ -831,7 +831,18 @@
 
         <h3>Formularz kontaktowy</h3>
 
-        <form class="contact__form">
+        <form class="contact__form" action="https://formspree.io/f/xdeawkka" method="POST">
+
+          <input type="hidden" name="_subject" value="Wiadomość z energacar.pl">
+
+          <input
+            type="text"
+            name="_gotcha"
+            class="contact__gotcha"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+          >
 
           <div class="contact__form-row">
 
@@ -878,6 +889,15 @@
             Wyślij wiadomość
             <span aria-hidden="true">→</span>
           </button>
+
+          <div class="form-status" role="status" aria-live="polite"></div>
+
+          <p class="form-rodo">
+            Wysyłając formularz wyrażasz zgodę na przetwarzanie Twoich danych
+            osobowych w celu odpowiedzi na zapytanie. Administratorem danych
+            jest ENERGACAR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ z siedzibą
+            w Poznaniu.
+          </p>
 
         </form>
 
