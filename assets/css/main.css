@@ -595,6 +595,8 @@ section {
   font-size: 1.15rem;
   line-height: 1.2;
   font-weight: 700;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .service__content p {
@@ -856,6 +858,8 @@ section {
   font-size: 1rem;
   line-height: 1.25;
   font-weight: 700;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .process__step p {
@@ -864,6 +868,8 @@ section {
   color: #64748b;
   font-size: 0.8rem;
   line-height: 1.5;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 /* ========================================
@@ -1688,6 +1694,32 @@ section {
 
   .services {
     padding: 64px 0 64px;
+  }
+
+  .process {
+    padding: 65px 0;
+  }
+
+  .service__content h3 {
+    font-size: 1.05rem;
+    text-wrap: balance;
+  }
+
+  .service__content h3 br {
+    display: none;
+  }
+
+  .process__steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px 0;
+  }
+
+  .process__step {
+    padding: 0 12px;
+  }
+
+  .process__step:not(:last-child)::after {
+    display: none;
   }
 }
 
