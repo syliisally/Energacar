@@ -1701,8 +1701,10 @@ section {
   }
 
   .service__content h3 {
-    font-size: 1.05rem;
-    text-wrap: balance;
+    font-size: 0.89rem;
+    text-wrap: unset;
+    overflow-wrap: normal;
+    hyphens: none;
   }
 
   .service__content h3 br {
@@ -1720,6 +1722,15 @@ section {
 
   .process__step:not(:last-child)::after {
     display: none;
+  }
+
+  .process__step p br {
+    display: none;
+  }
+
+  .process__step h3,
+  .process__step p {
+    text-wrap: balance;
   }
 }
 
