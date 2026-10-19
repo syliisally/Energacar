@@ -599,6 +599,10 @@ section {
   hyphens: auto;
 }
 
+.service__content h3 .line-break {
+  display: block;
+}
+
 .service__content p {
   margin-bottom: 22px;
   color: #687481;
@@ -1707,8 +1711,8 @@ section {
     hyphens: none;
   }
 
-  .service__content h3 br {
-    display: none;
+  .service__content h3 .line-break {
+    display: inline;
   }
 
   .process__steps {
